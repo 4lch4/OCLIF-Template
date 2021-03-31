@@ -30,11 +30,10 @@ USAGE
 # Commands
 <!-- commands -->
 * [`oclif-template autocomplete [SHELL]`](#oclif-template-autocomplete-shell)
-* [`oclif-template get:another:placeholder-c [FILE]`](#oclif-template-getanotherplaceholder-c-file)
-* [`oclif-template get:placeholder-b [FILE]`](#oclif-template-getplaceholder-b-file)
-* [`oclif-template hello [FILE]`](#oclif-template-hello-file)
+* [`oclif-template get:another:placeholder-c`](#oclif-template-getanotherplaceholder-c)
+* [`oclif-template get:placeholder-b`](#oclif-template-getplaceholder-b)
 * [`oclif-template help [COMMAND]`](#oclif-template-help-command)
-* [`oclif-template placeholder-a [FILE]`](#oclif-template-placeholder-a-file)
+* [`oclif-template placeholder-a`](#oclif-template-placeholder-a)
 
 ## `oclif-template autocomplete [SHELL]`
 
@@ -59,50 +58,30 @@ EXAMPLES
 
 _See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v0.3.0/src/commands/autocomplete/index.ts)_
 
-## `oclif-template get:another:placeholder-c [FILE]`
+## `oclif-template get:another:placeholder-c`
 
 describe the command here
 
 ```
 USAGE
-  $ oclif-template get:another:placeholder-c [FILE]
+  $ oclif-template get:another:placeholder-c
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help     show CLI help
+  -v, --version  show CLI version
 ```
 
-## `oclif-template get:placeholder-b [FILE]`
+## `oclif-template get:placeholder-b`
 
-describe the command here
+Placeholder B command.
 
 ```
 USAGE
-  $ oclif-template get:placeholder-b [FILE]
+  $ oclif-template get:placeholder-b
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-```
-
-## `oclif-template hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ oclif-template hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ oclif-template hello
-  hello world from ./src/hello.ts!
+  -h, --help     show CLI help
+  -v, --version  show CLI version
 ```
 
 ## `oclif-template help [COMMAND]`
@@ -122,17 +101,16 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
 
-## `oclif-template placeholder-a [FILE]`
+## `oclif-template placeholder-a`
 
-describe the command here
+Placeholder A command.
 
 ```
 USAGE
-  $ oclif-template placeholder-a [FILE]
+  $ oclif-template placeholder-a
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help     show CLI help
+  -v, --version  show CLI version
 ```
 <!-- commandsstop -->
